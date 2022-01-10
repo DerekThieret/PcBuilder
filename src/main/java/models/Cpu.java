@@ -19,13 +19,6 @@ public abstract class Cpu extends Component{
 
     public Integer getWattage() {return wattage;}
 
-    public Integer getCores() {
-        return cores;
-    }
-
-    public Integer getThreads() {
-        return threads;
-    }
 
     public String getSocket() {
         return socket;

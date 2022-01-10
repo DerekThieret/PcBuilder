@@ -313,9 +313,6 @@ public class PcBuilder {
             }
         }
         System.out.println(computerMade);
-
     }
-
-
 }
 

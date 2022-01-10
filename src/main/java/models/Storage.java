@@ -14,9 +14,6 @@ public class Storage extends Component{
         this.ssd = ssd;
     }
 
-    public BigDecimal getSizeTB() {
-        return sizeTB;
-    }
 
     public Boolean getNvme() {
         return nvme;
