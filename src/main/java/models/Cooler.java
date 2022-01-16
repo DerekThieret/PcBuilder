@@ -16,12 +16,10 @@ public class Cooler extends Component{
 
     @Override
     public String toString() {
-        return "Cooler{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", fanSpacesTaken=" + fanSpacesTaken +
-                '}';
+        return "Cooler ID: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", Fans Spaces Used: " + fanSpacesTaken
+                ;
     }
 }

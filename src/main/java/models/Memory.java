@@ -14,13 +14,10 @@ public class Memory extends Component{
 
     @Override
     public String toString() {
-        return "Memory{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", sizeGB=" + sizeGB +
-                ", speed='" + speed + '\'' +
-                '}';
+        return "Memory Kit ID: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", Size: " + sizeGB + "GB" +
+                ", Speed: " + speed;
     }
 }

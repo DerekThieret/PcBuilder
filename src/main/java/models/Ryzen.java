@@ -11,16 +11,14 @@ public class Ryzen extends Cpu {
 
     @Override
     public String toString() {
-        return "Ryzen{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", cores=" + cores +
-                ", threads=" + threads +
-                ", socket='" + socket + '\'' +
-                ", wattage=" + wattage +
-                '}';
+        return "CPU Id: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", Cores: " + cores +
+                ", Threads: " + threads +
+                ", Socket: " + socket +
+                ", Power: " + wattage +
+                " Watts";
     }
 }
 

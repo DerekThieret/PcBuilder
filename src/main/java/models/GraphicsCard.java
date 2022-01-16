@@ -18,13 +18,11 @@ public class GraphicsCard extends Component {
 
     @Override
     public String toString() {
-        return "GraphicsCard{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", memoryGB=" + memoryGB +
-                ", wattage=" + wattage +
-                '}';
+        return "Graphics Card Id: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", Memory " + memoryGB +"GB" +
+                ", Power Required " + wattage +
+                " Watts";
     }
 }

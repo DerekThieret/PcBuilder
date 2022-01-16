@@ -6,8 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="0244ab99-8c24-46c7-8268-2eb3558ca0df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cooler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cooler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/GraphicsCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/GraphicsCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Intel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Intel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Memory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Motherboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/PcCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/PcCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Psu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Psu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Ryzen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Ryzen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/PcBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/PcBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Cpu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Cpu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Storage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/PcBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/PcBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/PcBuilderCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/PcBuilderCLI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

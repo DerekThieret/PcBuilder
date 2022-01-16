@@ -29,16 +29,13 @@ public class PcCase extends models.Component {
 
     @Override
     public String toString() {
-        return "PcCase{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", fansSupported=" + fansSupported +
-                ", ssdsSupported=" + ssdsSupported +
-                ", hddsSupported=" + hddsSupported +
-                ", fansIncluded=" + fansIncluded +
-                '}';
+        return "Pc Case ID: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", SSDs Supported: " + ssdsSupported +
+                ", HDDs Supported: " + hddsSupported +
+                ", Fans Supported: " + fansSupported +
+                ", Fans Included: " + fansIncluded ;
     }
 }
 

@@ -25,14 +25,9 @@ public class Storage extends Component{
 
     @Override
     public String toString() {
-        return "Storage{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", sizeTB=" + sizeTB +
-                ", nvme=" + nvme +
-                ", ssd=" + ssd +
-                '}';
+        return "Storage ID: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", Size: " + sizeTB + "TB";
     }
 }

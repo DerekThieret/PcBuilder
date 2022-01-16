@@ -127,7 +127,7 @@ public class PcBuilder {
         }
         Boolean validMemoryKit = false;
         while (!validMemoryKit) {
-            System.out.println("Please enter a valid memory kit ID: ");
+            System.out.println("Please enter a valid Memory Kit ID: ");
             String memorySelected = scanner.nextLine();
             for (Memory memory : memoryList) {
                 if (memorySelected.equals(memory.getPartId())) {
@@ -145,7 +145,7 @@ public class PcBuilder {
         }
         Boolean validCooler = false;
         while (!validCooler) {
-            System.out.println("Please enter a valid cooler ID: ");
+            System.out.println("Please enter a valid Cooler ID: ");
             String coolerSelected = scanner.nextLine();
             for (Cooler cooler : coolerList) {
                 if (coolerSelected.equals(cooler.getPartId())) {
@@ -166,7 +166,7 @@ public class PcBuilder {
         }
         Boolean validGpu = false;
         while (!validGpu) {
-            System.out.println("Please enter a valid graphics card ID: ");
+            System.out.println("Please enter a valid Graphics Card ID: ");
             String graphicsCardSelected = scanner.nextLine();
             for (GraphicsCard graphicsCard : graphicsCardList) {
                 if (graphicsCardSelected.equals(graphicsCard.getPartId())) {
@@ -185,7 +185,7 @@ public class PcBuilder {
         }
         Boolean validPsu = false;
         while (!validPsu) {
-            System.out.println("Please enter a valid power supply ID: ");
+            System.out.println("Please enter a valid Power Supply ID: ");
             String psuSelected = scanner.nextLine();
             for (Psu psu : psuList) {
                 if (psuSelected.equals(psu.getPartId())) {
@@ -204,7 +204,7 @@ public class PcBuilder {
         boolean moreNvmeDrives = true;
         int nvmeCounter = 0;
         while (moreNvmeDrives) {
-            System.out.println("Please enter a valid nvme drive ID: ");
+            System.out.println("Please enter a valid nvme Drive ID: ");
             String storageSelected = scanner.nextLine();
             if (nvmeCounter < userMotherboard.getNvmeSupported()) {
                 for (Storage storage : storageList) {

@@ -22,13 +22,10 @@ public class Motherboard extends Component{
 
     @Override
     public String toString() {
-        return "Motherboard{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", socket='" + socket + '\'' +
-                ", nvmeSupported=" + nvmeSupported +
-                '}';
+        return "Motherboard Id: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", Socket: " + socket +
+                ", NVME Drive Slots: " + nvmeSupported;
     }
 }

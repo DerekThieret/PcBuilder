@@ -16,14 +16,12 @@ public class Fan extends Component {
 
     @Override
     public String toString() {
-        return "Fan{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", airflow=" + airflow +
-                ", rpm=" + rpm +
-                ", noise=" + noise +
-                '}';
+        return "Fan Id: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", CFM: " + airflow +
+                ", RPM: " + rpm +
+                ", Noise at Max RPM: " + noise +
+                "db";
     }
 }

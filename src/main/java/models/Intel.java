@@ -15,17 +15,15 @@ public class Intel extends Cpu {
 
     @Override
     public String toString() {
-        return "Intel{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", cores=" + cores +
-                ", threads=" + threads +
-                ", socket='" + socket + '\'' +
-                ", wattage=" + wattage +
-                ", pCores=" + pCores +
-                ", eCores=" + eCores +
-                '}';
+        return "CPU Id: " + partId +
+                ", Name: " + name +
+                ", Price: $" + price +
+                ", Cores: " + cores +
+                " (" + pCores + " Performance and " +
+                eCores + " Efficiency Cores)" +
+                ", Threads: " + threads +
+                ", Socket: " + socket +
+                ", Power: " + wattage +
+                " Watts";
     }
 }

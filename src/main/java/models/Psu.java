@@ -15,12 +15,10 @@ public class Psu extends Component {
 
     @Override
     public String toString() {
-        return "Psu{" +
-                "partId='" + partId + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", sizeCode=" + sizeCode +
-                ", wattage=" + wattage +
-                '}';
+        return "PSU ID: " + partId +
+                ", Name: " + name +
+                ", Price: " + price +
+                ", Power: " + wattage +
+                " Watts";
     }
 }
